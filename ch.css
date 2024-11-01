@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwkNKC6FaFHOipXIQyEZEBPGo4uNGuWryYqg&s");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  .highlight {
+    color: #007acc;
+  }
+  
+  /* Header and Navigation */
+  header {
+    background: linear-gradient(135deg, #007acc, #00c6ff);
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 20px;
+    margin: 20px 10%;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Home Section */
+  .section-home {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  /* About Section */
+  .section-about {
+    background-color: #e9f5ff;
+  }
+  
+  /* Projects Section */
+  .section-projects {
+    background-color: #f3f8e0;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+    flex: 1 1 300px; /* Responsive flex layout */
+    max-width: 300px; /* Ensures cards are consistent in size */
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .card img {
+    max-width: 100%; /* Ensures the image fits within the card */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Rounds the image edges */
+    margin-top: 10px; /* Adds space above the image */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Achievements Section */
+  .section-achievements {
+    background-color: #ffe6e6;
+  }
+  
+  /* Contact Section */
+  .section-contact {
+    background-color: #e6f9e6;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  form label {
+    margin: 10px 0 5px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #005f99;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007acc;
+    color: white;
+  }
+  
+  
